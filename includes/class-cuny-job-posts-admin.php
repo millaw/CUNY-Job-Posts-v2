@@ -52,7 +52,7 @@ class CUNY_Job_Posts_Admin {
     }
 
     public function settings_section_callback() {
-        echo '<p>Enter the JSON feed URL for your CUNY college job postings. Example: <code>https://cuny.jobs/<college>/new-jobs/feed/json</code></p>';
+        echo '<p>Enter the JSON feed URL for your CUNY college job postings. Example: <code>https://cuny.jobs/your_college_name/new-jobs/feed/json</code></p>';
     }
 
     public function college_url_callback() {
